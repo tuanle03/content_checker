@@ -1,0 +1,36 @@
+GIT
+  remote: git@github.com:tuanle03/ruby-openai.git
+  revision: d78ada5a8d1572d13022d31f40e0bccbd15f9e94
+  ref: main
+  specs:
+    ruby-openai (3.7.0)
+      httparty (>= 0.18.1)
+
+PATH
+  remote: .
+  specs:
+    content_checker (0.1.0)
+      ruby-openai
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    mini_mime (1.1.2)
+    multi_xml (0.6.0)
+    openai (0.3.0)
+    rake (13.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  content_checker!
+  openai
+  rake (~> 13.0)
+  ruby-openai!
+
+BUNDLED WITH
+   2.3.18
